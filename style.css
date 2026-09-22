@@ -102,7 +102,7 @@ button {
 
 .images {
     display: flex;
-    gap: 50px;
+    gap: 75px;
 }
 
 .ex-img {
@@ -113,6 +113,49 @@ button {
 
 .img-text {
     text-align: center;
+}
+
+.cta {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px 170px;
+}
+
+.author {
+    padding: 0px 170px;
+    font-size: 16px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window {
+    width: 800px;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window-head {
+    font-size: 22px;
 }
 
 .footer {
